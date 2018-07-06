@@ -1,0 +1,21 @@
+/* --  Header background-color, text-color and inner space set. --*/
+header { 
+    background-color: green;
+    color: white;
+    padding: 20px; 
+}
+
+/* --  Unnecessary spacing removed within body of page. --*/
+body {
+    margin: 0;
+    padding: 0;
+}
+      
+/* Small Device: Setting Header background for maximum width: 450px */
+@media screen and (max-width: 450px) {
+    header {
+        background-color: blue;
+        }
+}
+
+
